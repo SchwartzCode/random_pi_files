@@ -1,0 +1,6 @@
+#got this code from the one and only encyclopedia joe
+# link: github.com/Joe-Doyle/PAVLAB
+
+#put this into /etc/udev/rules.d
+
+SUBSYSTEM=="tty" ATTRS{manufacturer}=="Arduino*" SYMLINK+="duino"
